@@ -18,14 +18,14 @@ Welcome to my photography showcase. This repository highlights selected works fr
 ---
 
 SHOOT SERVICES
-• Pre-Wedding Shoot
-• Wedding & Event Shoot
-• Birthday Shoot
-• Maternity Shoot
-• Baby & Kids Shoot
-• Portrait Shoot
-• Corporate Shoot
-• Outdoor / Indoor Shoot
+*  • Pre-Wedding Shoot
+*  • Wedding & Event Shoot
+*  • Birthday Shoot
+*  • Maternity Shoot
+*  • Baby & Kids Shoot
+*  • Portrait Shoot
+*  • Corporate Shoot
+*  • Outdoor / Indoor Shoot
 
 ---
 
