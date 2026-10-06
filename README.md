@@ -17,20 +17,15 @@ Welcome to my photography showcase. This repository highlights selected works fr
 
 ---
 
-## ⚙️ Gear & Workflow
-
-* **Primary Bodies:** [e.g., Sony A7 IV / Canon EOS R6 / Nikon Z6 II]
-* **Prime Lenses:** [e.g., 50mm f/1.4, 85mm f/1.8]
-* **Lighting:** [e.g., Godox AD200 / Softbox octabox / Reflector]
-* **Post-Processing:** Adobe Lightroom Classic & Photoshop (Color grading & frequency separation retouching)
-
----
-
-## 📋 Shoot Services & Deliverables
-
-1. **Pre-Shoot Consultation:** Moodboard curation, outfit selection, and location scouting.
-2. **Production:** Full guided posing, lighting setup, and live shoot review.
-3. **Delivery:** Curated online gallery, high-resolution master edits, and web-ready crops.
+SHOOT SERVICES
+• Pre-Wedding Shoot
+• Wedding & Event Shoot
+• Birthday Shoot
+• Maternity Shoot
+• Baby & Kids Shoot
+• Portrait Shoot
+• Corporate Shoot
+• Outdoor / Indoor Shoot
 
 ---
 
