@@ -1,4 +1,4 @@
-# 📸 [Nilesh] — Portrait
+# 📸 Nilesh — Portrait
 
 Welcome to my photography showcase. This repository highlights selected works from recent studio, portrait, and lifestyle shoots, alongside details on gear, packages, and creative direction.
 
