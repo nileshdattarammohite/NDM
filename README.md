@@ -31,7 +31,6 @@ SHOOT SERVICES
 
 ## 📬 Contact & Bookings
 
-* **Location:** [Your City / Region]
-* **Instagram:** [@yourhandle](https://instagram.com)
+* **Location:** [Airoli,Navi mumbai-400708]
+* **Instagram:** [@yourhandle](https://instagram.com/nealartsphotography)
 * **Email:** [your-email@example.com](mailto:your-email@example.com)
-* **Website / Portfolio:** [yourportfolio.com](https://yourportfolio.com)
