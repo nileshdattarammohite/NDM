@@ -36,7 +36,7 @@ header p {
 
 /* Main Layout Wrapper */
 main {
-    max-width: 500px; /* Slimmer container for a elegant, centered stack */
+    max-width: 500px;
     margin: 0 auto;
     padding: 2.5rem 1.5rem;
 }
@@ -71,7 +71,7 @@ main {
     list-style-type: none;
     padding: 0;
     display: inline-block;
-    text-align: left; /* Keeps the list items left-aligned relative to each other */
+    text-align: left;
 }
 
 .service-group ul li {
@@ -87,7 +87,7 @@ main {
     content: "•";
     position: absolute;
     left: 0;
-    color: #58a6ff; /* Beautiful blue bullet point accent */
+    color: #58a6ff;
     font-size: 1.3rem;
     line-height: 1.2rem;
 }
@@ -110,7 +110,7 @@ footer h2 {
 .contact-info p {
     margin: 0.85rem 0;
     font-size: 1rem;
-    word-wrap: break-word; /* Prevents long emails from breaking mobile screens */
+    word-wrap: break-word;
 }
 
 .contact-info a {
@@ -120,6 +120,37 @@ footer h2 {
 
 .contact-info a:hover {
     text-decoration: underline;
+}
+
+/* Interactive WhatsApp Button Styling */
+.whatsapp-container {
+    margin: 1.5rem 0;
+}
+
+.whatsapp-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: #25D366; /* Official WhatsApp Green */
+    color: #ffffff !important;
+    text-decoration: none !important;
+    padding: 0.8rem 2rem;
+    font-weight: bold;
+    font-size: 1.05rem;
+    border-radius: 50px;
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.whatsapp-btn:hover {
+    background-color: #20ba5a;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(37, 211, 102, 0.4);
+}
+
+.whatsapp-btn:active {
+    transform: translateY(0);
 }
 
 .copyright {
@@ -135,4 +166,5 @@ footer h2 {
     header .logo { font-size: 1.7rem; }
     .service-group h2 { font-size: 1.25rem; }
     .service-group ul li { font-size: 1rem; }
+    .whatsapp-btn { padding: 0.7rem 1.5rem; font-size: 0.95rem; }
 }
