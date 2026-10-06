@@ -4,15 +4,6 @@ Welcome to my photography showcase. This repository highlights selected works fr
 
 ---
 
-## 🌟 Areas of Focus
-
-* **Studio Portraiture:** High-end beauty, dramatic chiaroscuro, and classic headshots.
-* **Environmental & Lifestyle:** Natural light, candid storytelling, and outdoor portraits.
-* **Editorial & Creative Concepts:** Styled thematic shoots, retro aesthetics, and creative lighting.
-* **Client & Event Shoots:** Engagements, creative sessions, and personal branding.
-
----
-
 ## 🖼️ Featured Highlights
 
 | Session | Concept | Focus |
