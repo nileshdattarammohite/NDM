@@ -31,6 +31,6 @@ SHOOT SERVICES
 
 ## 📬 Contact & Bookings
 
-* **Location:** [Airoli,Navi mumbai-400708]
+* **Location:** "Airoli,Navi mumbai-400708"
 * **Instagram:** [@nealartsphtotgraphy](https://instagram.com/nealartsphotography)
 * **Email:** [nealartsphtotgraphy@gamil.com](mailto:nealartsphtotgraphy@gmail.com)
