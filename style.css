@@ -16,12 +16,12 @@ body {
 header {
     background-color: #161b22;
     text-align: center;
-    padding: 3rem 1rem;
+    padding: 2.5rem 1rem;
     border-bottom: 1px solid #30363d;
 }
 
 header .logo {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 800;
     color: #f0f6fc;
     letter-spacing: -1px;
@@ -30,52 +30,65 @@ header .logo {
 
 header p {
     color: #8b949e;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    padding: 0 1rem;
 }
 
 /* Main Layout Wrapper */
 main {
-    max-width: 650px;
+    max-width: 500px; /* Slimmer container for a elegant, centered stack */
     margin: 0 auto;
-    padding: 3rem 1.5rem;
+    padding: 2.5rem 1.5rem;
 }
 
-/* Vertical Stack Layout to match the reference image style */
+/* Vertical Stack Layout */
 .services-vertical-stack {
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 3rem;
+}
+
+/* Centers the entire group block together */
+.service-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
 }
 
 .service-group h2 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #f0f6fc;
     margin-bottom: 1rem;
     font-weight: 700;
     display: flex;
     align-items: center;
+    gap: 0.5rem;
 }
 
+/* Clean list alignment */
 .service-group ul {
     list-style-type: none;
-    padding-left: 0.5rem;
+    padding: 0;
+    display: inline-block;
+    text-align: left; /* Keeps the list items left-aligned relative to each other */
 }
 
 .service-group ul li {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     padding: 0.4rem 0;
     color: #c9d1d9;
     position: relative;
     padding-left: 1.5rem;
 }
 
-/* Bullet Point Style matching your image */
+/* Sleek customized bullet point */
 .service-group ul li::before {
     content: "•";
     position: absolute;
     left: 0;
-    color: #8b949e;
-    font-size: 1.4rem;
+    color: #58a6ff; /* Beautiful blue bullet point accent */
+    font-size: 1.3rem;
     line-height: 1.2rem;
 }
 
@@ -83,7 +96,7 @@ main {
 footer {
     background-color: #161b22;
     border-top: 1px solid #30363d;
-    padding: 3rem 1rem;
+    padding: 3rem 1.5rem;
     text-align: center;
     margin-top: 4rem;
 }
@@ -91,11 +104,13 @@ footer {
 footer h2 {
     color: #f0f6fc;
     margin-bottom: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .contact-info p {
-    margin: 0.75rem 0;
-    font-size: 1.05rem;
+    margin: 0.85rem 0;
+    font-size: 1rem;
+    word-wrap: break-word; /* Prevents long emails from breaking mobile screens */
 }
 
 .contact-info a {
@@ -109,8 +124,15 @@ footer h2 {
 
 .copyright {
     margin-top: 3rem;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     color: #8b949e;
     border-top: 1px solid #21262d;
     padding-top: 1.5rem;
+}
+
+/* Extra Responsive Adjustments for Small Phones */
+@media (max-width: 400px) {
+    header .logo { font-size: 1.7rem; }
+    .service-group h2 { font-size: 1.25rem; }
+    .service-group ul li { font-size: 1rem; }
 }
