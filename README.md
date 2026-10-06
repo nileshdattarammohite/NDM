@@ -22,9 +22,7 @@ Welcome to my photography showcase. This repository highlights selected works fr
 | **Traditional & Heritage** | Cultural & festive wear | Rich textures, ornate styling |
 
 > **Sample Gallery Preview:**
-> ```markdown
 > ![Portrait Preview](assets/sample-portrait.jpg)
-> ```
 
 ---
 
