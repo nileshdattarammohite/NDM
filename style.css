@@ -1,4 +1,6 @@
-/* Reset & Base UI Styles */
+/* ==========================================================================
+   1. Reset & Base UI Framework Styles
+   ========================================================================== */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,17 +9,36 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #0d1117; /* Premium dark theme background */
+    background-color: #0d1117; /* High-end dark theme background */
     color: #c9d1d9;
     line-height: 1.6;
 }
 
-/* Header Styling */
+/* ==========================================================================
+   2. Header & Branding Section Styles
+   ========================================================================== */
 header {
     background-color: #161b22;
     text-align: center;
     padding: 2.5rem 1rem;
     border-bottom: 1px solid #30363d;
+}
+
+/* Profile / Graphic Logo Container styling */
+.logo-image-container {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-logo {
+    width: 90px;          /* Perfect modern size for desktop and mobile displays */
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;   /* Cuts your logo layout cleanly into a circular format */
+    border: 2px solid #30363d; 
+    background-color: #0d1117;
 }
 
 header .logo {
@@ -32,23 +53,27 @@ header p {
     color: #8b949e;
     font-size: 1rem;
     padding: 0 1rem;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-/* Main Layout Wrapper */
+/* ==========================================================================
+   3. Main Core Layout Area
+   ========================================================================== */
 main {
-    max-width: 500px;
+    max-width: 500px; /* Slim container for a modern, high-end look on any display */
     margin: 0 auto;
     padding: 2.5rem 1.5rem;
 }
 
-/* Vertical Stack Layout */
+/* Structured Vertical Stacking */
 .services-vertical-stack {
     display: flex;
     flex-direction: column;
     gap: 3rem;
 }
 
-/* Centers the entire group block together */
+/* Centers the category elements cleanly together */
 .service-group {
     display: flex;
     flex-direction: column;
@@ -66,12 +91,12 @@ main {
     gap: 0.5rem;
 }
 
-/* Clean list alignment */
+/* Balanced text alignment */
 .service-group ul {
     list-style-type: none;
     padding: 0;
     display: inline-block;
-    text-align: left;
+    text-align: left; /* Keeps the list options cleanly stacked relative to each other */
 }
 
 .service-group ul li {
@@ -82,7 +107,7 @@ main {
     padding-left: 1.5rem;
 }
 
-/* Sleek customized bullet point */
+/* Aesthetic blue custom accent bullet point */
 .service-group ul li::before {
     content: "•";
     position: absolute;
@@ -92,7 +117,9 @@ main {
     line-height: 1.2rem;
 }
 
-/* Footer & Active Contact Links */
+/* ==========================================================================
+   4. Footer & Active Booking Action Styles
+   ========================================================================== */
 footer {
     background-color: #161b22;
     border-top: 1px solid #30363d;
@@ -110,19 +137,20 @@ footer h2 {
 .contact-info p {
     margin: 0.85rem 0;
     font-size: 1rem;
-    word-wrap: break-word;
+    word-wrap: break-word; /* Prevents long text string overflows on minor viewports */
 }
 
 .contact-info a {
     color: #58a6ff;
     text-decoration: none;
+    transition: text-decoration 0.2s;
 }
 
 .contact-info a:hover {
     text-decoration: underline;
 }
 
-/* Interactive WhatsApp Button Styling */
+/* Premium WhatsApp Interactive Layout */
 .whatsapp-container {
     margin: 1.5rem 0;
 }
@@ -132,7 +160,7 @@ footer h2 {
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    background-color: #25D366; /* Official WhatsApp Green */
+    background-color: #25D366; /* Official WhatsApp Brand Core Color */
     color: #ffffff !important;
     text-decoration: none !important;
     padding: 0.8rem 2rem;
@@ -140,7 +168,7 @@ footer h2 {
     font-size: 1.05rem;
     border-radius: 50px;
     box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
-    transition: transform 0.2s ease, background-color 0.2s ease;
+    transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .whatsapp-btn:hover {
@@ -161,10 +189,13 @@ footer h2 {
     padding-top: 1.5rem;
 }
 
-/* Extra Responsive Adjustments for Small Phones */
+/* ==========================================================================
+   5. Mobile Screen Optimization Breakpoints
+   ========================================================================== */
 @media (max-width: 400px) {
     header .logo { font-size: 1.7rem; }
     .service-group h2 { font-size: 1.25rem; }
     .service-group ul li { font-size: 1rem; }
     .whatsapp-btn { padding: 0.7rem 1.5rem; font-size: 0.95rem; }
+    .brand-logo { width: 80px; height: 80px; }
 }
