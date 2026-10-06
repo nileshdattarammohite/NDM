@@ -7,12 +7,12 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #0d1117; /* High-end dark theme background */
+    background-color: #0d1117; /* Premium dark theme background */
     color: #c9d1d9;
     line-height: 1.6;
 }
 
-/* Header Typography */
+/* Header Styling */
 header {
     background-color: #161b22;
     text-align: center;
@@ -33,97 +33,50 @@ header p {
     font-size: 1.1rem;
 }
 
-/* Main Display Framing */
+/* Main Layout Wrapper */
 main {
-    max-width: 1100px;
+    max-width: 650px;
     margin: 0 auto;
-    padding: 2rem 1rem;
+    padding: 3rem 1.5rem;
 }
 
-/* Hero Highlight Card */
-.hero-section {
+/* Vertical Stack Layout to match the reference image style */
+.services-vertical-stack {
     display: flex;
-    justify-content: center;
-    margin-bottom: 4rem;
+    flex-direction: column;
+    gap: 2.5rem;
 }
 
-.image-container {
-    background-color: #161b22;
-    border: 1px solid #30363d;
-    border-radius: 12px;
-    padding: 1rem;
-    max-width: 600px;
-    width: 100%;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
-}
-
-.featured-img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    display: block;
-    object-fit: cover;
-}
-
-.img-caption {
-    text-align: center;
-    margin-top: 0.75rem;
-    color: #8b949e;
-    font-size: 0.9rem;
-    font-style: italic;
-}
-
-/* Responsive Service Matrices */
-.services-container h2 {
-    text-align: center;
-    font-size: 2rem;
+.service-group h2 {
+    font-size: 1.6rem;
     color: #f0f6fc;
-    margin-bottom: 2rem;
-}
-
-.services-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
-}
-
-.service-card {
-    background-color: #161b22;
-    border: 1px solid #30363d;
-    border-radius: 8px;
-    padding: 1.5rem;
-    transition: transform 0.2s ease, border-color 0.2s ease;
-}
-
-.service-card:hover {
-    transform: translateY(-4px);
-    border-color: #58a6ff; /* Aesthetic interactive glow */
-}
-
-.service-card h3 {
-    color: #f0f6fc;
-    font-size: 1.25rem;
     margin-bottom: 1rem;
-    border-bottom: 1px solid #21262d;
-    padding-bottom: 0.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
 }
 
-.service-card ul {
+.service-group ul {
     list-style-type: none;
+    padding-left: 0.5rem;
 }
 
-.service-card ul li {
+.service-group ul li {
+    font-size: 1.15rem;
     padding: 0.4rem 0;
     color: #c9d1d9;
     position: relative;
-    padding-left: 1.2rem;
+    padding-left: 1.5rem;
 }
 
-.service-card ul li::before {
-    content: "✦";
+/* Bullet Point Style matching your image */
+.service-group ul li::before {
+    content: "•";
     position: absolute;
     left: 0;
-    color: #58a6ff;
+    color: #8b949e;
+    font-size: 1.4rem;
+    line-height: 1.2rem;
 }
 
 /* Footer & Active Contact Links */
@@ -148,7 +101,6 @@ footer h2 {
 .contact-info a {
     color: #58a6ff;
     text-decoration: none;
-    transition: text-decoration 0.2s;
 }
 
 .contact-info a:hover {
@@ -161,10 +113,4 @@ footer h2 {
     color: #8b949e;
     border-top: 1px solid #21262d;
     padding-top: 1.5rem;
-}
-
-/* Screen Size Optimisation Breakpoints */
-@media (max-width: 600px) {
-    header .logo { font-size: 2rem; }
-    .services-grid { grid-template-columns: 1fr; }
 }
